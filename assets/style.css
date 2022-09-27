@@ -1,0 +1,184 @@
+h1 {
+    font-size: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+.five-day-forecast, button, #maincard, .daily-card{
+background-color: rgb(207, 185, 228);
+border: 1px solid gainsboro;
+border-radius: 15px;
+text-align: center;
+padding: 5px;
+}
+
+#todays-forecast {
+display: grid;
+grid-template-rows: 45% 45%;
+grid-template-columns: 25% 25% 25%;
+justify-content: center;
+align-items: center;
+}
+
+#main-card span {
+    padding: 6px;
+}
+
+#day {
+    text-align: center;
+}
+
+#main-card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.weather {
+    display: grid;
+    grid-template-rows: 40% 10% 45%;
+}
+
+.five-day-forecast {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 90%;
+}
+
+#search-container, header {
+    background-color: palevioletred;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: relative;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-content: center;
+}
+
+span {
+    border-radius: 5px;
+}
+
+#search-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#search-container input {
+    background-color: palevioletred;
+    border-radius: 15px;
+}
+
+#search-container input:focus-visible {
+    background-color: rgb(207, 185, 228);
+}
+
+.five-day-forecast, #today {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#search-city {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+}
+
+.search-history {
+    background-color: rgb(207, 185, 228);
+    margin: 3px;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-history:hover {
+    background-color: peachpuff;
+    border: 2px solid gainsboro;
+}
+
+#today {
+font-size: 15px;
+}
+
+.selector-visible {
+    display: block;
+    position: relative;
+    background-color: rgb(207, 185, 228);
+    border: 5px solid gainsboro;
+    min-width: 80%;
+    border-radius: 10px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+#container-daily-forecast {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    column-gap: 3%;
+    justify-content: center;
+}
+
+#search-container input:focus-visible {
+    background-color: rgb(207, 185, 228);
+}
+
+button:active{
+    color: plum;
+    box-shadow: none;
+}
+
+#today{
+    font-size: 10px;
+}
+
+.selector-visible > * {
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.selector-hidden {
+    display: none;
+}
+
+aside {
+    display: grid;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+#city, #today {
+    box-shadow: none;
+}
+
+#search-container {
+    width: 90%;
+    margin: auto auto 1rem auto;
+}
+
+#city {
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+   
+    <main>
+        <section id="search container">
+            <form id="search city">
+                <input type="text"> 
+                <button type="submit" id="search-btn">Search</button>
+            </form>
+
+            <button id="clear-search">Clear Search History</button>
+            <div id="search-history">
+
+            </div>
+
+        </section>
+
+        <!--  -->
+        <section id="weather">
+            <div id="main-card">
+                <div id="date">
+                    <span id="city">Phoenix</span>
+                    <span id="today"></span>
+                </div>
+                <hr>
+                <div id="todays-forecast">
+                    <!-- ADD a Photo for forecast -->
+                    <span id="current-temp"></span>
+                    <span id="max-temp"></span>
+                    <span id="min-temp"></span>
+                    <span id="wind"></span>
+                    <span id="humidity"></span>
+                </div>
+            </div>
+            <!-- where the 5 days will be displayed -->
+            <div class="five-day-forecast">5-Day Forecast</div>
+            <div id="container-daily-forecast">
+                <div class="daily-card" data-fivedays="0">
+                    <p class="day"></p>
+                    <hr>
+                    <!-- add emoji or pic -->
+                    <p class="max-temp"></p>
+                    <p class="min-temp"></p>
+                    <p class="wind"></p>
+                    <p class="humidity"></p>
+                </div>
+
+                <div class="daily-card" data-fivedays="1">
+                    <p class="day"></p>
+                    <hr>
+                    <!-- add emoji or pic -->
+                    <p class="max-temp"></p>
+                    <p class="min-temp"></p>
+                    <p class="wind"></p>
+                    <p class="humidity"></p>
+                </div>
+
+                <div class="daily-card" data-fivedays="2">
+                    <p class="day"></p>
+                    <hr>
+                    <!-- add emoji or pic -->
+                    <p class="max-temp"></p>
+                    <p class="min-temp"></p>
+                    <p class="wind"></p>
+                    <p class="humidity"></p>
+                </div>
+
+                <div class="daily-card" data-fivedays="3">
+                    <p class="day"></p>
+                    <hr>
+                    <!-- add emoji or pic -->
+                    <p class="max-temp"></p>
+                    <p class="min-temp"></p>
+                    <p class="wind"></p>
+                    <p class="humidity"></p>
+                </div>
+
+                <div class="daily-card" data-fivedays="4">
+                    <p class="day"></p>
+                    <hr>
+                    <!-- add emoji or pic -->
+                    <p class="max-temp"></p>
+                    <p class="min-temp"></p>
+                    <p class="wind"></p>
+                    <p class="humidity"></p>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>
